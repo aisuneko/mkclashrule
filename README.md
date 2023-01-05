@@ -18,7 +18,9 @@ telegram_cidr=https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/
 ```
 Feel free to edit the script yourself and add more sources on your own; It's really not that hard.
 ## Usage
+dependencies: `curl perl`
+
 `bash <(curl -Ls https://raw.githubusercontent.com/aisuneko/mkclashrule/master/mkclashrule.sh)`
 
-This would generate a 'rules.yaml' file which stores the rules config.
+This would generate a `rules.yaml` file which stores the rules config under your cwd.
 After that, you can use its content to replace the original `rules:` section in your Clash config file. 
